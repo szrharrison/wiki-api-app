@@ -1,0 +1,40 @@
+html body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+}
+
+a {
+  transition: .25s color ease 0.1s;
+  color: rgba(127, 200, 200, 0.87);
+}
+
+a:hover {
+  color: rgba(127, 200, 200, 0.5);
+}
+
+.ui.inverted.segment.nav {
+  position: fixed;
+  border-radius: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  z-index: 5;
+}
+.ui.pointing.dropdown>.menu:after, .ui.menu .dropdown.item .menu {
+  background-color: #1b1c1d;
+}
+
+.grid {
+  text-align: left;
+}
+
+.inverted .ui.breadcrumb .divider {
+  color: rgba(255,255,255,0.8)
+}
+
+.dataset-editor .breadcrumb {
+  margin-bottom: 15px;
+}
